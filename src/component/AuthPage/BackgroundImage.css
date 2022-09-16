@@ -1,0 +1,17 @@
+
+.backgroundImage__image {
+    background-image: url("https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png");
+    background-repeat: no-repeat;
+    align-self: center;
+    height: 581.50px;
+    width:450px;
+    
+}
+
+.backgroundImage__imageProp {
+    /* opacity: 0; */
+    margin: 27px 156px;
+    transition:opacity 1.5s ease-out;
+    position: absolute;
+    z-index: 2;
+}

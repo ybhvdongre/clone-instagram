@@ -1,0 +1,54 @@
+.avatarClickMenu {
+    border: 1px solid rgb(220, 219, 219);
+    width:200px;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    position: fixed;
+    right: 0;
+    margin-right: 200px;
+    margin-top: -15px;
+    z-index: 3;
+}
+
+.avatarClickMenu__profile > img,
+.avatarClickMenu__saved > img,
+.avatarClickMenu__settings > img,
+.avatarClickMenu__switch > img,
+.avatarClickMenu__logout > img {
+    height:20px;
+    margin:10px;
+}
+
+.avatarClickMenu__profile > img,
+.avatarClickMenu__saved > img,
+.avatarClickMenu__settings > img,
+.avatarClickMenu__switch > img,
+.avatarClickMenu__logout > img:hover {
+    cursor: pointer;
+}
+
+.avatarClickMenu__profile > p,
+.avatarClickMenu__saved > p,
+.avatarClickMenu__settings > p,
+.avatarClickMenu__switch > p,
+.avatarClickMenu__logout > p:hover {
+    cursor: pointer;
+}
+
+hr {
+    width:200px;
+    color:rgb(240, 238, 238);
+}
+
+.avatarClickMenu__profile,
+.avatarClickMenu__saved,
+.avatarClickMenu__settings,
+.avatarClickMenu__switch,
+.avatarClickMenu__logout {
+    display:flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+

@@ -1,0 +1,100 @@
+.app__post {
+    border:1px solid lightgrey;
+    background-color: white;
+    border-radius: 8px;
+    margin: 15px 0px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1px solid lightgrey;
+    max-width: 552px;
+   
+}
+
+.post__user {
+    padding: 5px 8px;
+}
+
+.post__user > p {
+    font-size: 15px;
+    width:410px;
+}
+
+/* .post__user > p:hover {
+    cursor: pointer;
+} */
+
+.post__user > img {
+   height:42px;
+   padding: 2px;
+   border-radius: 26px;
+   object-fit: contain;  
+}
+
+.post__user > img:hover {
+   cursor: pointer;  
+}
+
+/* .post__image {
+    border-bottom:1px solid lightgray;
+} */
+
+.post__image > img {
+    max-width: 526px;
+}
+
+#moreOptionsLogo{
+    height: 16px;
+}
+
+#moreOptionsLogo:hover{
+    cursor: pointer;
+}
+
+.post__iconsSection {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin:10px 0px;
+}
+
+.post__icons > img {
+    height:24px;
+}
+
+.post__icons > img:hover {
+    cursor: pointer;
+}
+
+.post__iconsLeft > img {
+    padding: 2px 5px;
+    margin-left: 10px;
+}
+
+.post__iconsRight > img {
+    padding: 2px 5px;
+    margin-right: 10px;
+}
+
+.post__caption {
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+.post__caption > p > strong {
+    cursor: pointer;
+}
+
+.post__comment {
+    margin: 15px 0px;
+    padding: 0px 10px;
+    text-align: justify;
+    font-size:15px;
+}
+
+.post__comment > p > strong:hover {
+    cursor: pointer;
+}

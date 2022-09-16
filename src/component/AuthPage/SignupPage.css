@@ -1,0 +1,37 @@
+.signupPage {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 40px auto;
+    margin-left: -60px;
+   
+}
+
+.signupPage__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid lightgrey;
+    width: 352px;
+    background-color: white;
+}
+
+.signupPage__formAppLogo {
+    margin-top:30px;
+}
+
+.signupPage__downloadApp > img {
+    width:140px;
+    margin: 20px 0px;
+    padding:0px 8px;
+}
+
+.signupPage__form > p {
+    font-size: 14px;
+}
+
+
+
+
+
+

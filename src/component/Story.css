@@ -1,0 +1,18 @@
+.story {
+    height:100px;
+    border:1px solid rgb(205, 202, 202);
+    border-radius: 8px;
+    background-color: white;
+}
+
+.story > img {
+    display: inline;
+    margin:16px 3px;
+    height : 65px;
+    border:2px solid black;
+    border-radius:36px;
+}
+
+.story > img:hover {
+    cursor: pointer;
+}

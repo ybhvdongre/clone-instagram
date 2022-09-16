@@ -1,0 +1,59 @@
+.navbar {
+    position: fixed;
+    top:0;
+    z-index: 3;
+    display:flex;
+    width:100%;
+    align-items: center;  
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 12px 0px;
+    border-bottom: 1px solid rgb(219,219,219); 
+    box-sizing: border-box;
+}
+
+.navbar__appLogo > img {
+    height:30px;
+    padding-top: 5px;
+    object-fit:contain;
+}
+
+.navbar__appLogo > img:hover {
+    cursor: pointer;
+}
+
+.navbar__searchbox > input {
+    border: 1px solid rgb(199, 197, 197);
+    border-radius: 5px;
+    background-color: rgb(239,239,239);
+    width: 270px;
+    padding: 8px;
+    padding-right: 32px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.navbar__searchbox > img {
+    height:25px;
+    margin: -7px -32px;
+}
+
+.navbar__searchbox > img:hover {
+    cursor: pointer;
+}
+
+.navbar__icons > img {
+    width:25px;
+    object-fit: contain;
+    margin:0px 12px;
+}
+
+.navbar__icons > img:hover {
+   cursor: pointer;
+}
+
+#navbar__userAvatar {
+    border-radius: 14px;
+    height: 26px;
+}
+
